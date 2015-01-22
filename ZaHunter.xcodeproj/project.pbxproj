@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		F91D5D5D1A703CC8000CE1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5D5C1A703CC8000CE1CD /* main.m */; };
 		F91D5D601A703CC8000CE1CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5D5F1A703CC8000CE1CD /* AppDelegate.m */; };
-		F91D5D631A703CC8000CE1CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5D621A703CC8000CE1CD /* ViewController.m */; };
+		F91D5D631A703CC8000CE1CD /* PizzeriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5D621A703CC8000CE1CD /* PizzeriaViewController.m */; };
 		F91D5D661A703CC8000CE1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91D5D641A703CC8000CE1CD /* Main.storyboard */; };
 		F91D5D681A703CC8000CE1CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91D5D671A703CC8000CE1CD /* Images.xcassets */; };
 		F91D5D6B1A703CC8000CE1CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F91D5D691A703CC8000CE1CD /* LaunchScreen.xib */; };
 		F91D5D771A703CC8000CE1CD /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5D761A703CC8000CE1CD /* ZaHunterTests.m */; };
+		F91D5D811A703ECF000CE1CD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D5D801A703ECF000CE1CD /* MapKit.framework */; };
+		F91D5D831A703EEA000CE1CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D5D821A703EEA000CE1CD /* CoreLocation.framework */; };
+		F91D5D891A7042A1000CE1CD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5D881A7042A1000CE1CD /* MapViewController.m */; };
+		F91D5D921A7091DA000CE1CD /* Pizzeria.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5D911A7091DA000CE1CD /* Pizzeria.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,20 @@
 		F91D5D5C1A703CC8000CE1CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F91D5D5E1A703CC8000CE1CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F91D5D5F1A703CC8000CE1CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F91D5D611A703CC8000CE1CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F91D5D621A703CC8000CE1CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F91D5D611A703CC8000CE1CD /* PizzeriaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzeriaViewController.h; sourceTree = "<group>"; };
+		F91D5D621A703CC8000CE1CD /* PizzeriaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzeriaViewController.m; sourceTree = "<group>"; };
 		F91D5D651A703CC8000CE1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F91D5D671A703CC8000CE1CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F91D5D6A1A703CC8000CE1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F91D5D701A703CC8000CE1CD /* ZaHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91D5D751A703CC8000CE1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F91D5D761A703CC8000CE1CD /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		F91D5D801A703ECF000CE1CD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F91D5D821A703EEA000CE1CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F91D5D871A7042A1000CE1CD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F91D5D881A7042A1000CE1CD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		F91D5D901A7091DA000CE1CD /* Pizzeria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizzeria.h; sourceTree = "<group>"; };
+		F91D5D911A7091DA000CE1CD /* Pizzeria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizzeria.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F91D5D831A703EEA000CE1CD /* CoreLocation.framework in Frameworks */,
+				F91D5D811A703ECF000CE1CD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,8 @@
 		F91D5D4E1A703CC8000CE1CD = {
 			isa = PBXGroup;
 			children = (
+				F91D5D821A703EEA000CE1CD /* CoreLocation.framework */,
+				F91D5D801A703ECF000CE1CD /* MapKit.framework */,
 				F91D5D591A703CC8000CE1CD /* ZaHunter */,
 				F91D5D731A703CC8000CE1CD /* ZaHunterTests */,
 				F91D5D581A703CC8000CE1CD /* Products */,
@@ -83,8 +97,12 @@
 			children = (
 				F91D5D5E1A703CC8000CE1CD /* AppDelegate.h */,
 				F91D5D5F1A703CC8000CE1CD /* AppDelegate.m */,
-				F91D5D611A703CC8000CE1CD /* ViewController.h */,
-				F91D5D621A703CC8000CE1CD /* ViewController.m */,
+				F91D5D611A703CC8000CE1CD /* PizzeriaViewController.h */,
+				F91D5D621A703CC8000CE1CD /* PizzeriaViewController.m */,
+				F91D5D871A7042A1000CE1CD /* MapViewController.h */,
+				F91D5D881A7042A1000CE1CD /* MapViewController.m */,
+				F91D5D901A7091DA000CE1CD /* Pizzeria.h */,
+				F91D5D911A7091DA000CE1CD /* Pizzeria.m */,
 				F91D5D641A703CC8000CE1CD /* Main.storyboard */,
 				F91D5D671A703CC8000CE1CD /* Images.xcassets */,
 				F91D5D691A703CC8000CE1CD /* LaunchScreen.xib */,
@@ -219,7 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F91D5D631A703CC8000CE1CD /* ViewController.m in Sources */,
+				F91D5D631A703CC8000CE1CD /* PizzeriaViewController.m in Sources */,
+				F91D5D891A7042A1000CE1CD /* MapViewController.m in Sources */,
+				F91D5D921A7091DA000CE1CD /* Pizzeria.m in Sources */,
 				F91D5D601A703CC8000CE1CD /* AppDelegate.m in Sources */,
 				F91D5D5D1A703CC8000CE1CD /* main.m in Sources */,
 			);
